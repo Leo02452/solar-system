@@ -67,6 +67,7 @@ img:hover {
 
 .card-container {
   display: flex;
+  flex-grow: 1;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -77,6 +78,7 @@ img:hover {
   border-radius: 7px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   margin: 10px;
-  min-width: 30%;
+  width: 400px;
 }
